@@ -256,10 +256,12 @@ p , span {
 @media (max-width:450px) {
     .container-product {
         flex-direction: column  ;
+        margin-bottom: 20px;
     }
 
     .product-details {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .product-rated {
@@ -297,11 +299,16 @@ p , span {
         margin-right: 0;
     }
     .container {
-        overflow-y: auto;
         padding: 20px 0;
+        height: 100%;
     }
     .anne {
         margin-left: 0;
         margin-top: 20px;
+    }
+
+    .colton , .anne ,.irene {
+        width: 100%;
+        margin-right: 0;
     }
 }
